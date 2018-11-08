@@ -1,4 +1,5 @@
 import time
+import os
 
 performance_measurements = {}
 PERF_ENABLED = (os.getenv('PERF_ENABLED') or 'false') in ['true', 'True', '1']
